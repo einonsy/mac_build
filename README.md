@@ -11,6 +11,11 @@ sudo python get-pip.py
 sudo pip install ansible
 ```
 
+install the requirements
+```
+ansible-galaxy install -r requirements.yml
+```
+
 run the main playbook: 
 
 ```
