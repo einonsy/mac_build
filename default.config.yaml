@@ -39,6 +39,7 @@ homebrew_installed_packages:
   - htop
   - gnu-tar
   - packer
+  - zsh
 
 homebrew_taps:
   - homebrew/core
@@ -58,6 +59,7 @@ homebrew_cask_apps:
   - vagrant
   - visual-studio-code
   - google-cloud-sdk
+  - iterm2
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
