@@ -1,21 +1,6 @@
 ---
 downloads: ~/.ansible-downloads/
 
-configure_dotfiles: yes
-configure_sudoers: yes
-configure_terminal: yes
-configure_osx: yes
-
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
-dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
-dotfiles_files:
-  - .zshrc
-  - .gitignore
-  - .inputrc
-  - .osx
-  - .vimrc
-
 homebrew_installed_packages:
   - autoconf
   - bash-completion
@@ -39,8 +24,8 @@ homebrew_installed_packages:
   - htop
   - gnu-tar
   - packer
-  - zsh
   - terragrunt
+  - zsh
 
 homebrew_taps:
   - homebrew/core
