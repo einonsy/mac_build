@@ -26,6 +26,7 @@ homebrew_installed_packages:
   - packer
   - terragrunt
   - zsh
+  - k9s
 
 homebrew_taps:
   - homebrew/core
